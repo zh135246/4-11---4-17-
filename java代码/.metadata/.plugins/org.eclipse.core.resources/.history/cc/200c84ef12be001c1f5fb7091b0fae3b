@@ -1,0 +1,16 @@
+package 第一周代码;
+
+public class 代码04循环嵌套实例 {
+	public static void main(String[] args) {
+		int i,j;
+		for(i=0;i<5;i++)
+		{
+			for(j=0;j<i;j++)
+			{
+				System.out.println("*");
+			}
+			System.out.println("\n");
+		}
+	}
+
+}
